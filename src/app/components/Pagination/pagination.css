@@ -1,0 +1,17 @@
+/* 
+.pagination__btn {
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+}
+.pagination__btn:first-child {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+.btns {
+  background: #e4e3e3;
+  border: none;
+  padding: var(--padding);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: var(--transition);
+} */

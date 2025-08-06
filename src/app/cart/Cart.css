@@ -1,0 +1,70 @@
+.cart {
+  padding: var(--padding);
+  gap: 1rem;
+}
+.cart .card {
+  margin-bottom: 1rem;
+}
+.cart__item {
+  gap: 1rem;
+}
+.cart__items {
+  flex: 1;
+}
+.cart__items-action {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart__item input {
+  flex: 0.1rem;
+}
+.cart__item-img {
+  flex: 0.2rem;
+  width: 8rem;
+  height: 10rem;
+}
+.cart__item-description {
+  flex: 0.2rem;
+}
+.cart__item-shipping {
+  margin-top: 0.5rem;
+  color: red;
+}
+.cart__item-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cart__item-trash {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cart__payment {
+  flex: 1;
+}
+.cart__payment-summary > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.cart__payment-btn {
+  width: 100%;
+}
+.cart__payment-methods > h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cart__payment-methods > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

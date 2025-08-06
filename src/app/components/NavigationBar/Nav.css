@@ -1,0 +1,63 @@
+#menu-icon {
+  display: none;
+}
+nav {
+  font-family: "Comic Neue", cursive;
+  font-size: 1.2rem;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nav-upper {
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+}
+.nav__list {
+  transition: var(--transition);
+}
+.nav__list:hover {
+  text-decoration: overline tomato;
+}
+.nav__link {
+  color: white;
+  transition: var(--transition);
+}
+.nav__link:hover {
+  color: black;
+}
+.profile-icon {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  filter: saturate(0);
+  transition: var(--transition);
+}
+.profile-icon:hover {
+  filter: saturate(1);
+}
+.profile-icon-role {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1.8px solid rgb(246, 250, 7);
+  /* transition: width 2s */
+  /* transition: var(--transition); */
+}
+.profile-icon-role:hover {
+  width: 2.125rem;
+  height: 2.125rem;
+  /* transition: all 1s ease-out; */
+  /* transition-duration: 1.5s; */
+  transition: width 2s
+}
+.nav-lower {
+  min-height: 10vh;
+  background-color: var(--secondary-color);
+  font-weight: bolder;
+}
+.nav__brand {
+  font-size: 1.5rem;
+}

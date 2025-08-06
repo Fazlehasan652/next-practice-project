@@ -1,0 +1,10 @@
+.about-us-content {
+  padding: 4rem 0;
+  height: 80vh;
+  background: url(/assets/com-1.jpg) no-repeat center;
+  filter: contrast(0.99);
+  background-size: cover;
+  overflow: hidden;
+  padding: 20px;
+}
+/* About Us End */

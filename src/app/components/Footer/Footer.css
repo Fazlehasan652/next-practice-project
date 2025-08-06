@@ -1,0 +1,18 @@
+.footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  min-height: 10vh;
+  color: white;
+  font-size: 1.1rem;
+}
+.btn__subscribe {
+  background: red;
+  padding: 0.6rem;
+}
+.footer__input {
+  margin-left: 0.225rem;
+  padding: var(--padding);
+  width: 20rem;
+  border: 0.0625rem solid red;
+  
+}
