@@ -53,10 +53,10 @@ const ProductAddForm = () => {
     console.log(file);
     const data = new FormData();
     data.append("file", file);
-    data.append("upload_preset", "api-with-firebase-ecommerce");
-    data.append("cloud_name", "dstcwxwn9");
+    data.append("upload_preset", "my-next-app");
+    data.append("cloud_name", "de2ougsup");
     const res = await fetch(
-      "https://api.cloudinary.com/v1_1/dstcwxwn9/image/upload",
+      "https://api.cloudinary.com/v1_1/de2ougsup/image/upload",
       {
         method: "POST",
         body: data,

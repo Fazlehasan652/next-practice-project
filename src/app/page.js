@@ -30,8 +30,8 @@ export default async function Home({ searchParams }) {
   // console.log( searchParams, "searchParams special type of Props in next js ");
   const params = await searchParams;
   // console.log( params, "searchParams special type of Props in next js ");
-  const data = await getProducts(params);
-  // console.log(data);
+  const {products,totalPages} = await getProducts(params);
+  // console.log(products, "products");
   return (
     <>
       <Header />
@@ -41,12 +41,12 @@ export default async function Home({ searchParams }) {
         <div className="main-content">
           <SearchProduct />
           <section className="products">
-            <ProductCard data={data} />
+            <ProductCard products={products} />
           </section>
         </div>
       </main>
       <div className="flex justify-center items-center mb-14">
-        <Pagination totalPages={data?.totalPages} pathname={"/"} />
+        <Pagination totalPages={totalPages} pathname={"/"} />
       </div>
     </>
   );
